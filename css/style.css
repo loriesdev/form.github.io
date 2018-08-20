@@ -1,0 +1,58 @@
+body{
+	background-color: #f5f5f5;
+}
+html {
+	overflow: hidden;
+}
+#container {
+	margin-right: -10px;
+	margin-left: -10px;
+	margin-top: -10px;
+	padding-top: 150px;
+	text-align: center;
+}
+input {
+	outline-width: 0px;
+	background-color: white;
+	border-radius: 50px;
+	border: 2px solid #d7d7d7;
+	text-align: center;
+	font-family: 'Roboto', serif;
+	font-size: 15px;
+	height: 60px;
+	width: 300px;
+	caret-color : #d7d7d7;
+}
+input::-webkit-input-placeholder {
+ 	color: #d7d7d7; 
+}
+#send {
+	outline-width: 0px;
+	outline-color: #e8caca;
+	background-color: white;
+	border-radius: 50px;
+	border: 2px solid #e8caca;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Roboto', serif;
+	font-weight: bold;
+	height: 60px;
+	width: 150px;
+	color: #e8caca;
+	-webkit-animation: hue 10s infinite linear;
+}
+p {
+	font-size: 15px;
+	font-family: 'Roboto', serif;
+	color: #d4cdcd; 
+	-webkit-animation: hue 10s infinite linear;
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
